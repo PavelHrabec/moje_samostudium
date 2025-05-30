@@ -9,8 +9,8 @@ print("4 - dělení")
 
 volba = input("Zadej číslo operace (1/2/3/4): ")
 
-#a = float(input("Zadej první číslo: "))
-#b = float(input("Zadej druhé číslo: "))
+a = float(input("Zadej první číslo: "))
+b = float(input("Zadej druhé číslo: "))
 
 if volba == "1":
     vysledek = a + b
@@ -40,5 +40,8 @@ else:
 #if...elif...else – výběr operace.
 
 #Ošetření dělení nulou (if b != 0).
+
+
+
 
 
