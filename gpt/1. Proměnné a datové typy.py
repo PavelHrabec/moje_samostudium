@@ -14,3 +14,9 @@ text = "Ahoj!"
 # Logická hodnota (pravda/nepravda)
 pravda = True
 nepravda = False
+
+
+
+print(cislo)
+print(desetinne)
+print(text)
