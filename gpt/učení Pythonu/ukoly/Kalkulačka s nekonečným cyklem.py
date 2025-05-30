@@ -36,3 +36,13 @@ while True:
             print("Výsledek:", a / b)
         else:
             print("Chyba: dělení nulou není možné.")
+
+
+#Co je nové:
+#while True: → nekonečný cyklus.
+
+#break → ukončí cyklus.
+
+#continue → přeskočí zbytek cyklu a skočí zpět na začátek.
+
+#Ošetření neplatných voleb.
