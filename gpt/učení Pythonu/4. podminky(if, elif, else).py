@@ -1,4 +1,6 @@
 
+#Podmínky říkají programu, co má udělat, když něco platí.
+
 
 cislo = int(input("Zadej číslo: "))
 
