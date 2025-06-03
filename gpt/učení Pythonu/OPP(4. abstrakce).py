@@ -21,3 +21,4 @@ print("Obsah obdélníku:", rect.area())
 
 #Shape je abstraktní třída, kterou nemůžeš přímo vytvořit, jen rozšířit.
 
+
