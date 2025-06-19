@@ -24,3 +24,15 @@ class VIPUser(User):
     def vip_card_number(self, new_number):
         if self._check_card(new_number):
             self._vip_card_number = new_number
+
+
+
+if __name__ == "__main__":
+    user1 = VIPUser("Pavel", "Novák", "pavel@example.com", 1234)
+    print(user1.vip_card_number)
+
+    user1.vip_card_number = 555
+    print(user1.vip_card_number)
+
+    user1.vip_card_number = 2000
+    print(user1.vip_card_number)
